@@ -13,3 +13,7 @@ provider "aws" {
   region                   = "us-east-1"
   profile                  = "default"
 }
+
+output "hello" {
+  value= "First Run"
+}
